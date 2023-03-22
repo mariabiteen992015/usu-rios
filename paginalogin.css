@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    width: 10%;
+    height: 30%;
+    margin-top: 1%;
+    margin-left: 45%; 
+}
+
+p {
+    text-align: center;
+    font-size:130%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+} 
+p1 {
+    text-align: center;
+    font-size:130%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+} 
+p2 {
+    text-align: center;
+    font-size:110%;
+    color: rgb(245, 21, 21);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}   
+
+.bd {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(88, 155, 132);
+    border: 2px solid black;
+}
+
+.meio {
+    margin-top: 7%;
+    margin-left: 38%; 
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    width: 25%;
+    height: 60%;
+    background-color: white;
+
+}
+
+.inputs {
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.Email {
+    height: 10%;
+    width: 50%;
+    margin-top: 5%;
+    border-color: black;
+}
+
+.Senha {
+    height: 10%;
+    width: 50%;
+    margin-top: 5%;
+    border-color: black;
+}
+
+.inputButton {
+    height: 10%;
+    width: 40%;
+    margin-top: 10%;
+    border-color: black;
+    background-color: rgb(209, 198, 198);
+
+}
+h1 {
+    text-align: center;
+    font-size:180%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}

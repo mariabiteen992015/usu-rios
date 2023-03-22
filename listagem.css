@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+
+
+.centralizarcenter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bd {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(88, 155, 132);
+}
+
+.meio {
+    border-radius: 1%;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    background-color: rgb(250, 250, 250);
+
+}
+
+.quadro {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 2%;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.botlistar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 50%;
+    margin-right: 75%;
+    border-color: black;
+}
+
+.botlimpar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 40%;
+    margin-right: 75%;
+    border-color: black;
+}
+.botdeletar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 30%;
+    margin-right: 75%;
+    border-color: black;
+}
+
+.botsair {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 20%;
+    margin-right: 75%;
+    border-color: black;
+}
+
+.botadicionar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 10%;
+    margin-right: 75%;
+    border-color: black;
+}
+.botatualizar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-top: 0%;
+    margin-right: 75%;
+    border-color: black;
+}
+.bottestar {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    margin-bottom: 10%;
+    margin-right: 75%;
+    border-color: black;
+}
+.titular {
+    text-align: center;
+    font-size:210%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+label {
+    text-align: center;
+    font-size:110%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size:250%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
